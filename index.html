@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Install ESPLink</title>
+</head>
+<body>
+<!-- Embedding the script -->
+<script type="module" src="https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"></script>
+<p><esp-web-install-button manifest="manifest.json" install-supported=""></esp-web-install-button> &lt;&lt; use this button to install esp-link</p>
+<article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto">ESP-LINK: Wifi-Serial Bridge w/REST&amp;MQTT</h1>
+<p dir="auto"><a><img src="https://cloud.githubusercontent.com/assets/39480/19333951/73fcdcbe-90ad-11e6-8572-5e654377275a.png" style="max-width: 100%;"></a></p>
+<p dir="auto">The esp-link firmware connects a micro-controller to the internet using an ESP8266 Wifi module.
+It implements a number of features:</p>
+<ul dir="auto">
+<li>transparent bridge between Wifi and serial, useful for debugging or inputting into a uC</li>
+<li>flash-programming attached Arduino/AVR microcontrollers and
+LPC800-series and other ARM microcontrollers via Wifi</li>
+<li>built-in stk500v1 programmer for AVR uC's: program using HTTP upload of hex file</li>
+<li>outbound REST HTTP requests from the attached micro-controller to the internet</li>
+<li>MQTT client pub/sub from the attached micro-controller to the internet</li>
+<li>serve custom web pages containing data that is dynamically pulled from the attached uC and
+that contain buttons and fields that are transmitted to the attached uC (feature not
+fully ready yet)</li>
+</ul>
+<p dir="auto">The firmware includes a tiny HTTP server based on
+<a href="http://www.esp8266.com/viewforum.php?f=34" rel="nofollow">esphttpd</a>
+with a simple web interface, many thanks to Jeroen Domburg for making it available!
+The REST and MQTT functionality are loosely based on <a href="https://github.com/tuanpmt/espduino">espduino</a>
+but significantly rewritten and no longer protocol compatible, thanks to tuanpmt for the
+inspiration!</p>
+<p dir="auto">The following people contributed significant functionality to esp-link:
+<a href="https://github.com/brunnels">brunnels</a> (espduino integration),
+<a href="https://github.com/cskarai">cskarai</a> (custom dynamic web pages),
+<a href="https://github.com/beegee-tokyo">beegee-tokyo</a> (lots of code documentation),
+<a href="https://github.com/susisstrolch">susisstrolch</a> (syslog feature),
+<a href="https://github.com/bc547">bc547</a> and <a href="https://github.com/katast">katast</a> (misc contributions).
+Esp-link is the work of many contributors!</p>
+<p dir="auto">Note that <a href="http://github.com/jeelabs/esp-link">http://github.com/jeelabs/esp-link</a> is the original esp-link software which has
+notably been forked by arduino.org as <a href="https://github.com/arduino-org/Esp-Link">Esp-Link</a> and shipped
+with the initial Arduino Uno Wifi. The JeeLabs esp-link has evolved significantly since the
+fork and added cool new features as well as bug fixes.</p>
+</article>
+</body>
+</html>
