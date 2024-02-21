@@ -1,3 +1,5 @@
+Link to [online installer](https://aceindy.github.io/esp-link/) on GitHub.IO
+
 ESP-LINK: Wifi-Serial Bridge w/REST&MQTT
 ========================================
 
