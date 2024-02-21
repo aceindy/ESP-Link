@@ -8,7 +8,7 @@
       "parts": [
         { "path": "boot_v1.7.bin", "offset": 0 },
         { "path": "user1.bin", "offset": 4096 },
-        { "path": "esp_init_data_default.bin", "offset": 4177920 },
+        { "path": "esp_init_data_default.bin", "offset": 507904 },
         { "path": "blank.bin", "offset": 4186112 }      ]
     }
   ]
