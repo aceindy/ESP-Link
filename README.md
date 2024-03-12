@@ -1,5 +1,7 @@
 Link to [online installer](https://aceindy.github.io/esp-link/) on GitHub.IO
 
+PS: [I changed the secondary port from 2323 to 2000](https://github.com/aceindy/esp-link/commit/d8fcdd9cab574b2cc1f54f2f8527749f49d43cd3) and recompiled from there.
+
 ESP-LINK: Wifi-Serial Bridge w/REST&MQTT
 ========================================
 
